@@ -1,5 +1,5 @@
-# pyHive
-- pyHive is a python3 implementation of the PHP CoinHive API class
+# pyCoinHive
+- pyCoinHive is a python3 implementation of the PHP CoinHive API class
 
 ### Usage GET
 
