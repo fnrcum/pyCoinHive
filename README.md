@@ -10,4 +10,4 @@ print(stats.get("history"))
 ```
 
 ### Donations
-[![Paypal donations](http://noororphansfund.org/wp-content/uploads/2014/06/paypalicon.png "Paypal donations")](paypal.me/xafnir "Paypal donations")
+[![Paypal donations](http://noororphansfund.org/wp-content/uploads/2014/06/paypalicon.png "Paypal donations")](https://www.paypal.me/xafnir "Paypal donations")
