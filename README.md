@@ -1,7 +1,7 @@
 # pyHive
 - pyHive is a python3 implementation of the PHP CoinHive API class
 
-###Usage
+### Usage
 
 ```python
 coinhive = CoinHiveAPI("YOUR_SECRET_KEY")
