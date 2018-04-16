@@ -21,12 +21,14 @@ class CoinHiveAPI(object):
     def get(self, path, data={}):
         data['secret'] = self.secret
         url = self.API_URL + path + '?' + parse.urlencode(data)
+        print(url)
         response = requests.get(url)
         return json.loads(response.text)
 
     def post(self, path, data={}):
         data['secret'] = self.secret
-        request = {'header': 'Content-type: application/x-www-form-urlencoded', 'content': parse.urlencode(data)}
+        print(data)
+        headers = {'Content-type': 'application/x-www-form-urlencoded'}
         url = self.API_URL + path
-        response = requests.post(url, request)
+        response = requests.post(url, headers=headers, data=data)
         return json.loads(response.text)
