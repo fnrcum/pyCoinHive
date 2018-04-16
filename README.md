@@ -7,6 +7,9 @@
 coinhive = CoinHiveAPI("YOUR_SECRET_KEY")
 stats = coinhive.get("/stats/site")
 print(stats.get("history"))
+
+request = coinhive.post("/link/create", {'url': 'http://google.com/', 'hashes': 1024})
+print(request)
 ```
 
 ### Donations
