@@ -30,5 +30,5 @@ class CoinHiveAPI(object):
         print(data)
         headers = {'Content-type': 'application/x-www-form-urlencoded'}
         url = self.API_URL + path
-        response = requests.post(url, headers=headers, data=data)
+        response = requests.post(url, headers=headers, data=parse.urlencode(data))
         return json.loads(response.text)
