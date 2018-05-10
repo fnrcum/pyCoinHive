@@ -1,6 +1,8 @@
 # pyCoinHive
 - pyCoinHive is a python3 implementation of the PHP CoinHive API class
 
+[![Documentation Status](https://readthedocs.org/projects/pycoinhive/badge/?version=latest)](http://pycoinhive.readthedocs.io/en/latest/?badge=latest)
+
 ### Usage GET
 
 ```python
